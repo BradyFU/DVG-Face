@@ -50,18 +50,18 @@ python train_ligthcnn.py
 ## Citation
 If you use our code for your research, please cite the following papers:
 ```
-@inproceedings{fu2019dual,
+@article{fu2021dvg,
+  title={DVG-face: Dual variational generation for heterogeneous face recognition},
+  author={Fu, Chaoyou and Wu, Xiang and Hu, Yibo and Huang, Huaibo and He, Ran},
+  journal={IEEE TPAMI},
+  year={2021}
+}
+
+@inproceedings{fu2021dual,
   title={Dual Variational Generation for Low-Shot Heterogeneous Face Recognition},
   author={Fu, Chaoyou and Wu, Xiang and Hu, Yibo and Huang, Huaibo and He, Ran},
   booktitle={NeurIPS},
   year={2019}
-}
-
-@article{fu2020dvg,
-  title={DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition},
-  author={Fu, Chaoyou and Wu, Xiang and Hu, Yibo and Huang, Huaibo and He, Ran},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2021}
 }
 ```
 
