@@ -149,7 +149,7 @@ class deconvblock(nn.Module):
         x = self.activation(x)
         return x
 
-# for AdaIN
+# AdaIN from: https://github.com/NVlabs/MUNIT
 def get_num_adain_params(model):
     # return the number of AdaIN parameters needed by the model
     num_adain_params = 0
