@@ -16,7 +16,7 @@ This repo is a [PyTorch](https://pytorch.org/) implementation of [DVG-Face: Dual
 - Download Identity Sampler ([Google Drive](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view)) pretrained on MS-Celeb-1M.
 - Put the above two models in `./pre_train`
 
-- For `train_generator.py`:
+`train_generator.py`:
 Fill out options of '--img_root' and '--train_list', which are the image root and training list of the heterogeneous data, respectively.
 An example of the training list:
 ```
