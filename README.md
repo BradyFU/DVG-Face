@@ -4,8 +4,8 @@ This repo is a [PyTorch](https://pytorch.org/) implementation of [DVG-Face: Dual
 
 ## Prerequisites
 - Python 3.7.0 & PyTorch 1.5.0 & Torchvision 0.6.0
-- Download LightCNN-29 ([Google Drive](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view)) pretrained on MS-Celeb-1M.
-- Download Identity Sampler ([Google Drive](https://drive.google.com/file/d/1kezDpwqA4a3WGq5PfS1kDrASf3-bN4js/view?usp=sharing)) pretrained on MS-Celeb-1M.
+- Download LightCNN-29 [[Google Drive](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view)] pretrained on MS-Celeb-1M.
+- Download Identity Sampler [[Google Drive](https://drive.google.com/file/d/1kezDpwqA4a3WGq5PfS1kDrASf3-bN4js/view?usp=sharing)] pretrained on MS-Celeb-1M.
 - Put the above two models in `./pre_train`
 
 
