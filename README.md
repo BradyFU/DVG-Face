@@ -32,7 +32,7 @@ python train_generator.py
 
 ## Generate images from noise
 `gen_samples.py`:
-Fill out options of '--img_root' and '--train_list' that is the same as the above options.
+Fill out options of '--img_root' and '--train_list' that are the same as the above options.
 ```
 python gen_samples.py
 ```
@@ -41,12 +41,29 @@ The generated images will be saved in `./gen_images`
 
 ## Train the recognition model LightCNN-29
 `train_lightcnn.py`:
-Fill out options of 'num_classes', '--img_root_A', and '--train_list_A', where the last two options is the same as the above options.
+Fill out options of 'num_classes', '--img_root_A', and '--train_list_A', where the last two options are the same as the above options.
 ```
 python train_ligthcnn.py
 ```
 
 
+## Citation
+If you use our code for your research, please cite the following papers:
+```
+@inproceedings{fu2019dual,
+  title={Dual Variational Generation for Low-Shot Heterogeneous Face Recognition},
+  author={Fu, Chaoyou and Wu, Xiang and Hu, Yibo and Huang, Huaibo and He, Ran},
+  booktitle={NeurIPS},
+  year={2019}
+}
+
+@article{fu2020dvg,
+  title={DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition},
+  author={Fu, Chaoyou and Wu, Xiang and Hu, Yibo and Huang, Huaibo and He, Ran},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2021}
+}
+```
 
 
 
