@@ -18,8 +18,8 @@ NIR/s2_NIR_10039_001.jpg 232
 VIS/s1_VIS_00134_010.jpg 133
 NIR/s1_NIR_00118_011.jpg 117
 ```
-Here we use 'NIR' and 'VIS' in the training list to distinguish the modality of images. If your list has other distinguishing marks,
-please change the corresponding marks in `./data/dataset.py` (lines 28, 38, 66, and 68).
+Here we use 'NIR' and 'VIS' in the training list to distinguish the modality of images. If your list has other distinguishable marks,
+please change them correspondingly in `./data/dataset.py` (lines 28, 38, 66, and 68).
 ```
 python train_generator.py --gpu_ids 0
 ```
