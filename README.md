@@ -1,5 +1,11 @@
 # DVG-Face
-A [pytorch](https://pytorch.org/) code of paper [DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition](https://arxiv.org/pdf/2009.09399.pdf). This is an extension version of our previous conference paper [Dual Variational Generation for Low Shot Heterogeneous Face Recognition](https://github.com/BradyFU/DVG).
+A [pytorch](https://pytorch.org/) code of paper [DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition](https://arxiv.org/pdf/2009.09399.pdf). This is an extension version of our previous conference [paper](https://github.com/BradyFU/DVG).
+
+
+<p align="center">  
+<img src="image/framework.png">  
+</p> 
+
 
 ## Prerequisites
 - Python 3.7.0
