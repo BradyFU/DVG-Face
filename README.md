@@ -1,5 +1,5 @@
 # DVG-Face
-A [pytorch](https://pytorch.org/) code of paper [DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition](https://arxiv.org/pdf/2009.09399.pdf). This is an extension version of our previous conference [paper](https://github.com/BradyFU/DVG).
+This repo is a [PyTorch](https://pytorch.org/) implementation of [DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition](https://arxiv.org/pdf/2009.09399.pdf), which is an extension version of our previous conference [paper](https://github.com/BradyFU/DVG).
 
 
 <p align="center">  
