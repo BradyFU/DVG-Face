@@ -21,7 +21,7 @@ NIR/s1_NIR_00118_011.jpg 117
 Here we use 'NIR' and 'VIS' in the training list to distinguish the modality of images. If your list has other distinguishing marks,
 please change the corresponding marks in `./data/dataset.py` (lines 28, 38, 66, and 68).
 ```
-python train_generator.py
+python train_generator.py --gpu_ids 0
 ```
 
 
@@ -29,7 +29,7 @@ python train_generator.py
 `gen_samples.py`:
 Fill out options of '--img_root' and '--train_list' that are the same as the above options.
 ```
-python gen_samples.py
+python gen_samples.py --gpu_ids 0
 ```
 The generated images will be saved in `./gen_images`
 
@@ -38,7 +38,7 @@ The generated images will be saved in `./gen_images`
 `train_lightcnn.py`:
 Fill out options of 'num_classes', '--img_root_A', and '--train_list_A', where the last two options are the same as the above options.
 ```
-python train_ligthcnn.py
+python train_ligthcnn.py --gpu_ids 0,1
 ```
 
 
