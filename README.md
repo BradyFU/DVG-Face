@@ -8,11 +8,11 @@ This repo is a [PyTorch](https://pytorch.org/) implementation of [DVG-Face: Dual
 
 
 ## Prerequisites
-- Python 3.7.0
-- Pytorch 1.5.0 & torchvision 0.6.0
+- Python 3.7.0 & PyTorch 1.5.0 & Torchvision 0.6.0
 - Download LightCNN-29 ([Google Drive](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view)) pretrained on MS-Celeb-1M.
 - Download Identity Sampler ([Google Drive](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view)) pretrained on MS-Celeb-1M.
 - Put the above two models in `./pre_train`
+
 
 ## Train the generator
 `train_generator.py`:
@@ -28,6 +28,27 @@ please change the corresponding marks in `./data/dataset.py` (lines 28, 38, 66, 
 ```
 python train_generator.py
 ```
+
+
+## Generate images from noise
+`gen_samples.py`:
+Fill out options of '--img_root' and '--train_list' that is the same as the above options.
+```
+python gen_samples.py
+```
+The generated images will be saved in `./gen_images`
+
+
+## Train the recognition model LightCNN-29
+`train_lightcnn.py`:
+Fill out options of 'num_classes', '--img_root_A', and '--train_list_A', where the last two options is the same as the above options.
+```
+python train_ligthcnn.py
+```
+
+
+
+
 
 
 
