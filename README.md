@@ -2,6 +2,25 @@
 This repo is a [PyTorch](https://pytorch.org/) implementation of [DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition](https://arxiv.org/pdf/2009.09399.pdf), which is an extension version of our previous [conference paper](https://github.com/BradyFU/DVG). Compared with the previous one, this version has more powerful performances.
 
 
+## Our Heterogeneous Face Recognition Works
+
+✨ [**DVG-Face: Dual Variational Generation for Heterogeneous Face Recognition**](https://arxiv.org/pdf/2009.09399.pdf)
+
+- Chaoyou Fu, Xiang Wu, Yibo Hu, Huaibo Huang, and Ran He. **IEEE TPAMI 2021**
+
+✨ [**Dual Variational Generation for Low Shot Heterogeneous Face Recognition**](https://proceedings.neurips.cc/paper/2019/file/b5a1fc2085986034e448d2ccc5bb9703-Paper.pdf)
+
+- Chaoyou Fu, Xiang Wu, Yibo Hu, Huaibo Huang, and Ran He. **NeurIPS 2019**
+
+✨ [**Towards Lightweight Pixel-Wise Hallucination for Heterogeneous Face Recognition**](https://ieeexplore.ieee.org/abstract/document/9971748)
+
+- Chaoyou Fu, Xiaoqiang Zhou, Weizan He, and Ran He. **IEEE TPAMI 2022**
+
+✨ [**Cross-Spectral Face Hallucination via Disentangling Independent Factors**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Duan_Cross-Spectral_Face_Hallucination_via_Disentangling_Independent_Factors_CVPR_2020_paper.pdf)
+
+- Boyan Duan, Chaoyou Fu, Yi Li, Xingguang Song, and Ran He. **CVPR 2020**
+
+
 ## Prerequisites
 - Python 3.7.0 & PyTorch 1.5.0 & Torchvision 0.6.0
 - Download LightCNN-29 [[Google Drive](https://drive.google.com/file/d/1Jn6aXtQ84WY-7J3Tpr2_j6sX0ch9yucS/view)] pretrained on MS-Celeb-1M.
@@ -58,6 +77,21 @@ If you use our code for your research, please cite the following papers:
   booktitle={NeurIPS},
   year={2019}
 }
+
+@article{fu2022towards,
+  title={Towards Lightweight Pixel-Wise Hallucination for Heterogeneous Face Recognition},
+  author={Fu, Chaoyou and Zhou, Xiaoqiang and He, Weizan and He, Ran},
+  journal={IEEE TPAMI},
+  year={2022}
+}
+
+@inproceedings{duan2020cross,
+  title={Cross-spectral face hallucination via disentangling independent factors},
+  author={Duan, Boyan and Fu, Chaoyou and Li, Yi and Song, Xingguang and He, Ran},
+  booktitle={CVPR},
+  year={2020}
+}
+
 ```
 
 
